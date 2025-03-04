@@ -18,6 +18,8 @@ form {
 	border-radius: 0.5em;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
+	align-items: center;
+	
 }
 
 input,
@@ -42,4 +44,26 @@ button {
 
 button:hover {
 	background-color: #005f73;
+}
+
+.Tickets label,
+.field_email label,
+.password label,
+.user_name label {
+    display: inline-block;
+}
+
+.Tickets input,
+.field_email input,
+.password input,
+.user_name input {
+    display: inline-block;
+    width: 25em;
+    padding: 0.625em;
+	border-color: #333;
+	padding-left: 5em;
+}
+
+.error-message {
+    color: red;
 }
